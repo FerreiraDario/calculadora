@@ -1,0 +1,61 @@
+.contenedor {
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    background-color: #967117;
+}
+
+.calculadora {
+    width: 300p 
+    border: 20px solid black;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.boton {
+    height: 50px;
+    width: 100px;
+    border: none;
+}
+
+.violeta {
+    background-color: #3a315e;
+}
+
+.naranja {
+    background-color: #ee6a4c;
+}
+
+.gris {
+    background-color: #948a89;
+}
+
+.naranja,
+.violeta,
+.gris {
+    color: white;
+}
+
+.numero {
+    background-color: #e3dfde;
+}
+
+.pie {
+    height: 80px;
+    width: 100%;
+    background-color: white;
+}
+
+.display {
+    text-align: center;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    font-size: 50px;
+}
