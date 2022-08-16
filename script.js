@@ -56,4 +56,11 @@ function punto(){
 function igual(){
     document.querySelector('.display').innerText += '='
 }
-
+ function igual () {
+    //Variable
+    var cuenta = document.querySelector('.display').innerText 
+    console.log(cuenta)
+    console.log( cuenta + 3)
+    console.log(eval(cuenta))
+    document.querySelector('.display').innerText = eval(cuenta)
+ }
